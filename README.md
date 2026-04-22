@@ -54,9 +54,9 @@ This project implements a rigid-body, physics-based simulation of a 2-DOF revolu
 The top-level Simulink model is structured as a serial kinematic chain:
 
 ```
-World Frame → [Weld Joint] → Base → Joint1 (Revolute) → Link1 → Joint2 (Revolute) → Link2 → End-Effector
-                                                                                            ↓
-                                                                                    Thermal Sensor
+World Frame → [Weld Joint] → Base → Joint1 (Revolute/tweisting joint) → Link1 → Joint2 (Revolute joint) → Link2 → End-Effector
+                                                                                                              ↓
+                                                                                                         Thermal Sensor
 ```
 
 ### Subsystems
