@@ -7,6 +7,7 @@ A 2-Degree-of-Freedom (2-DOF) planar robotic arm modelled and simulated in **MAT
 ## Project Overview
 
 This project implements a rigid-body, physics-based simulation of a 2-DOF revolute-joint robotic arm. The model captures the full kinematic chain from a fixed world frame through two rotational joints and two rigid links to an end-effector, and includes an additional thermal sensing subsystem attached to the arm structure.
+<img width="902" height="453" alt="Simulation arm" src="https://github.com/user-attachments/assets/5b614146-c3c8-448a-93ad-c9ca5b7edcf4" />
 
 ---
 
